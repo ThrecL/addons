@@ -20,7 +20,7 @@
             "version": "2.2.0",
             "description": "Integrated YouTube engine for music streaming, playlists, and immersive cinema-mode visuals.",
             "category": "community",
-            "baseUrl": "http://localhost:3000",
+            "baseUrl": "https://youtubeaddon.vercel.app",
             "resources": [
                 "catalog",
                 "stream",
