@@ -17,9 +17,10 @@
         {
             "id": "community.youtube",
             "name": "YouTube Music & Visuals",
-            "version": "2.1.0",
+            "version": "2.2.0",
             "description": "Integrated YouTube engine for music streaming, playlists, and immersive cinema-mode visuals.",
             "category": "community",
+            "baseUrl": "http://localhost:3000",
             "resources": [
                 "catalog",
                 "stream",
