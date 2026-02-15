@@ -49,7 +49,7 @@
             "version": "1.0.0",
             "description": "Deep discovery engine for Last.fm genres, trends, and charts with direct stream resolution.",
             "category": "community",
-            "baseUrl": "https://youtubeaddon.vercel.app/lastfm",
+            "baseUrl": "https://lastfmaddon.vercel.app",
             "resources": [
                 "meta",
                 "catalog",
