@@ -45,18 +45,42 @@
         },
         {
             "id": "community.lastfm_explore",
-            "name": "Last.fm Explore",
+            "name": "Last.fm Explorer",
             "version": "1.0.0",
-            "description": "Dynamic artwork discovery, track trivia, and discovery features from Last.fm.",
+            "description": "Deep discovery engine for Last.fm genres, trends, and charts with direct stream resolution.",
             "category": "community",
+            "baseUrl": "https://vibe-lastfm-v2.vercel.app",
             "resources": [
                 "meta",
-                "catalog"
+                "catalog",
+                "stream"
             ],
             "types": [
                 "track",
                 "artist",
                 "album"
+            ],
+            "catalogs": [
+                {
+                    "type": "track",
+                    "id": "lastfm_trending",
+                    "name": "Trending (Last.fm)"
+                },
+                {
+                    "type": "track",
+                    "id": "lastfm_hot",
+                    "name": "Hot Tracks (Hype)"
+                },
+                {
+                    "type": "track",
+                    "id": "lastfm_top_artists",
+                    "name": "Top Artists"
+                },
+                {
+                    "type": "track",
+                    "id": "lastfm_tags",
+                    "name": "Top Tags/Genres"
+                }
             ]
         }
     ]
