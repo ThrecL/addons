@@ -17,7 +17,7 @@
         {
             "id": "community.youtube",
             "name": "YouTube Music & Visuals",
-            "version": "2.2.0",
+            "version": "2.0.0",
             "description": "Integrated YouTube engine for music streaming, playlists, and immersive cinema-mode visuals.",
             "category": "community",
             "baseUrl": "https://youtubeaddon.vercel.app",
@@ -29,6 +29,18 @@
             "types": [
                 "track",
                 "playlist"
+            ],
+            "catalogs": [
+                {
+                    "type": "track",
+                    "id": "yt_trending",
+                    "name": "Trending (YouTube)"
+                },
+                {
+                    "type": "track",
+                    "id": "yt_new_releases",
+                    "name": "New Releases (YouTube)"
+                }
             ]
         },
         {
