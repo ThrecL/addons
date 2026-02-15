@@ -1,33 +1,50 @@
 {
-    "name": "WayVibe Official Addon Repository",
     "addons": [
         {
-            "id": "internal.youtube",
-            "name": "YouTube Music",
-            "version": "1.1.0",
-            "description": "High-quality music streaming from YouTube",
+            "id": "official.picard",
+            "name": "Picard Music Brainz",
+            "version": "1.0.0",
+            "description": "High-fidelity metadata tagging and audio identification via MusicBrainz Picard.",
+            "category": "official",
             "resources": [
-                "catalog",
-                "stream"
+                "meta"
             ],
             "types": [
-                "track"
-            ],
-            "category": "official"
+                "track",
+                "album"
+            ]
         },
         {
-            "id": "community.yt_cinema",
-            "name": "YT Cinema Mode",
-            "version": "1.0.2",
-            "description": "Alternative YouTube interface with enhanced metadata",
+            "id": "community.youtube",
+            "name": "YouTube Music & Visuals",
+            "version": "2.0.0",
+            "description": "Integrated YouTube engine for music streaming, playlists, and immersive cinema-mode visuals.",
+            "category": "community",
             "resources": [
                 "catalog",
-                "stream"
+                "stream",
+                "meta"
             ],
             "types": [
-                "track"
+                "track",
+                "playlist"
+            ]
+        },
+        {
+            "id": "community.lastfm_explore",
+            "name": "Last.fm Explore",
+            "version": "1.0.0",
+            "description": "Dynamic artwork discovery, track trivia, and discovery features from Last.fm.",
+            "category": "community",
+            "resources": [
+                "meta",
+                "catalog"
             ],
-            "category": "official"
+            "types": [
+                "track",
+                "artist",
+                "album"
+            ]
         }
     ]
 }
