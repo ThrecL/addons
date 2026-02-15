@@ -1,0 +1,39 @@
+{
+    "id": "community.youtube",
+    "name": "YouTube Music & Visuals",
+    "version": "1.0.0",
+    "description": "YouTube Music engine hosted on Vercel.",
+    "resources": [
+        "catalog",
+        "stream",
+        "meta"
+    ],
+    "types": [
+        "track"
+    ],
+    "catalogs": [
+        {
+            "type": "track",
+            "id": "yt_trending",
+            "name": "Trending (YouTube)"
+        },
+        {
+            "type": "track",
+            "id": "yt_new_releases",
+            "name": "New Releases (YouTube)"
+        },
+        {
+            "type": "track",
+            "id": "search",
+            "name": "Search Results",
+            "extra": [
+                {
+                    "name": "search",
+                    "isRequired": true
+                }
+            ]
+        }
+    ],
+    "background": "https://music.youtube.com/img/favicon_144.png",
+    "logo": "https://music.youtube.com/img/favicon_144.png"
+}
