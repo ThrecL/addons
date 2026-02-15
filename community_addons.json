@@ -1,0 +1,33 @@
+{
+    "name": "WayVibe Official Addon Repository",
+    "addons": [
+        {
+            "id": "internal.youtube",
+            "name": "YouTube Music",
+            "version": "1.1.0",
+            "description": "High-quality music streaming from YouTube",
+            "resources": [
+                "catalog",
+                "stream"
+            ],
+            "types": [
+                "track"
+            ],
+            "category": "official"
+        },
+        {
+            "id": "community.yt_cinema",
+            "name": "YT Cinema Mode",
+            "version": "1.0.2",
+            "description": "Alternative YouTube interface with enhanced metadata",
+            "resources": [
+                "catalog",
+                "stream"
+            ],
+            "types": [
+                "track"
+            ],
+            "category": "official"
+        }
+    ]
+}
